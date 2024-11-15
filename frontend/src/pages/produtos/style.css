@@ -1,0 +1,32 @@
+.page-title {
+    margin-top: calc(0% + 5rem);
+}
+
+
+/* Botões */
+.button-url {
+    background-color: rgb(80,80,80); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo entre os botões */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: all 0.3s ease; /* Transição suave para hover */
+  }
+  
+.button-url:hover {
+    background-color: rgb(50,50,50); /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom leve */
+  }
+  
+.button-url:active {
+    background-color: rgb(120,120,120); /* Cor de fundo ao clicar */
+    transform: scale(0.95); /* Reduz ligeiramente ao clicar */
+  }
+  
+.button-url:focus {
+    outline: none; /* Remove a borda padrão de foco */
+    box-shadow: 0 0 5px rgb(120,120,120); /* Sombra ao focar no botão */
+  }
